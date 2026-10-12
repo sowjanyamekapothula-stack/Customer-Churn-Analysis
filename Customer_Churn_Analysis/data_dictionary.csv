@@ -1,0 +1,12 @@
+Column,Description
+customerid,Unique customer identifier
+gender,Customer gender
+age,Customer age in years
+tenuremonths,Customer tenure in months
+subscriptiontype,Customer subscription plan
+monthlycharges,Monthly subscription charges
+totalcharges,Total charges paid by customer
+contracttype,Customer contract duration
+supporttickets,Number of support tickets
+paymentmethod,Customer payment method
+churn,Whether the customer churned

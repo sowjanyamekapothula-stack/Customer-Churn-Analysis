@@ -1,0 +1,42 @@
+
+CUSTOMER CHURN - DATA QUALITY AND EDA REPORT
+
+1. DATASET OVERVIEW
+Total customers: 15
+Total columns: 11
+
+2. DATA QUALITY
+Duplicate rows remaining: 0
+Missing values remaining: 0
+
+3. CHURN ANALYSIS
+Churned customers: 7
+Customers retained: 8
+Churn rate: 46.67%
+
+4. CONTRACT ANALYSIS
+churn           No  Yes
+contracttype           
+Month-to-Month   0    7
+One Year         4    0
+Two Year         4    0
+
+5. SUBSCRIPTION ANALYSIS
+churn             No  Yes
+subscriptiontype         
+Basic              2    5
+Enterprise         4    0
+Pro                2    2
+
+6. CLEANING DECISIONS
+- Removed exact duplicate rows; none were found.
+- Standardized column names to lowercase.
+- Removed leading and trailing spaces from text fields.
+- No missing values were found.
+- No potential outliers were flagged by the IQR method.
+- No outliers were removed.
+
+7. LIMITATION
+The dataset contains only 15 customer records.
+Findings are descriptive and should not be generalized
+to a larger customer population.
